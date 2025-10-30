@@ -1,0 +1,48 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "tps 測定アドオン",
+        "description": "tpsを測定するアドオンです。入れても実績解除可能です。",
+        "uuid": "84197539-ea96-4361-8c33-5d76e075def7",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            110
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "711063f0-c829-4de0-9a84-d19908d933cd",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "9cd32aec-8a62-40ba-a9f0-f40ef4dbb462",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.2.0"
+        }
+    ],
+    "metadata": {
+		"product_type": "addon"
+	}
+}
