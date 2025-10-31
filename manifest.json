@@ -1,13 +1,13 @@
 {
     "format_version": 2,
     "header": {
-        "name": "tps 測定アドオン",
-        "description": "tpsを測定するアドオンです。入れても実績解除可能です。",
+        "name": "TPS Viewer",
+        "description": "This addon displays the server's TPS and MSPT in-game. made by oasobi",
         "uuid": "84197539-ea96-4361-8c33-5d76e075def7",
         "version": [
             1,
             0,
-            0
+            1
         ],
         "min_engine_version": [
             1,
@@ -43,6 +43,10 @@
         }
     ],
     "metadata": {
-		"product_type": "addon"
+		"product_type": "addon",
+        "authors": [
+			"oasobi"
+		],
+        "url": "https://go.oasoobi.net/tpsview"
 	}
 }
